@@ -1,1 +1,80 @@
-/* Write your CSS here */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  gap: 16px;
+}
+
+.todo-text-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.todo-checkbox {
+  width: 18px;
+  height: 18px;
+  margin-right: 14px;
+  cursor: pointer;
+}
+
+.title,
+.todo-title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #000000;
+  margin: 0;
+}
+
+.strike-through {
+  text-decoration: line-through;
+  color: #828282;
+}
+
+.edit-todo-input {
+  font-family: 'Roboto';
+  font-size: 15px;
+  padding: 6px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  outline: none;
+  width: 85%;
+}
+
+.todo-buttons-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.action-button {
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: transparent;
+  outline: none;
+}
+
+.edit-button {
+  border: 1px solid #0070c0;
+  color: #0070c0;
+}
+
+.edit-button:hover {
+  background-color: #0070c0;
+  color: #ffffff;
+}
+
+.delete-button {
+  border: 1px solid #ff0b37;
+  color: #ff0b37;
+}
+
+.delete-button:hover {
+  background-color: #ff0b37;
+  color: #ffffff;
+}
